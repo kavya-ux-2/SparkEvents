@@ -1,0 +1,135 @@
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #454646;
+  }
+  .header {
+    background-color: rgba(92, 93, 93, 0.5); /* 50% transparent */
+    position: relative;
+    z-index: 1000;
+}
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 20px 20px 20px 20px;
+    text-decoration: none;
+    
+  }
+  
+  /* Change the link color to #111 (black) on hover */
+  li a:hover {
+    background-color: #111;
+  }
+  .active {
+    color: #0b0b0b;
+  }
+img{
+    width: 125px;
+    height: 50px;
+    padding-right: 20px ;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    float: right;
+}
+.email-button {
+  display: inline-block;
+  background-color: #f9f9fb;
+  border: none;
+  color: black;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  padding: 15px 30px;
+  border-radius: 5px;
+  margin-top: 5px;
+  margin-right: 20px;
+  float: right;
+  cursor: pointer;
+}
+
+.email-button:hover {
+  background-color: #e0e0e0; /* Slightly darker shade on hover */
+}
+
+.hero_section{
+   background-image: url('heroimg2.jpg');
+   padding: 50px 50px  ;
+   height: 400px;
+   text-align: center;
+   font-size: 30px;
+   color: #ffffff;
+   background-repeat: no-repeat;
+   background-size: cover;
+}
+h4{
+font-weight: 10;
+ margin-top: 10px;
+ color: #ffffff;
+ font-size: 45px;
+}
+.hero_sec3{
+    background-image: url('img3.jpg');
+    padding: 50px 50px ;
+    height: 400px;
+    text-align: center;
+    font-size: 40px;
+    color: #f9f9fb;
+}
+.hero_sec2{
+    background-image: url('img6.jpg');
+    padding: 50px 50px  ;
+    height: 400px;
+    text-align: center;
+    font-size: 30px;
+    color: #ffffff;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.hero_sec4{
+    background-color: #ffffff;
+    padding: 50px 50px ;
+    height: 200px;
+    text-align: center;
+    font-size: 40px;
+    color: #000000;
+    margin-top: 50px;
+}
+.working{
+  background-color: #f9f9fb;
+  text-align: center;
+  color: #000000;
+  margin-top: 50px;
+  height: 600px;
+  font-size: larger;
+}
+p{
+  font-size: 20px;
+}
+h3{
+  font-size: 25px;
+}
+.footer{
+  background-color: #000000;
+  text-align: center;
+  height: 85px;
+  color: #f9f9fb;
+  padding-top: 10px;
+  font-size: medium;
+}
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1000;
+}
+
+.sticky + hr {
+  margin-top: 50px; /* Adjust based on your navbar height */
+}
